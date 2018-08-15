@@ -15,6 +15,7 @@
 		852015812124790D007EF909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8520157F2124790D007EF909 /* LaunchScreen.storyboard */; };
 		8520158C2124790D007EF909 /* CalendarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8520158B2124790D007EF909 /* CalendarViewTests.swift */; };
 		852015972124790D007EF909 /* CalendarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852015962124790D007EF909 /* CalendarViewUITests.swift */; };
+		852015A5212479C0007EF909 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852015A4212479C0007EF909 /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		852015922124790D007EF909 /* CalendarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		852015962124790D007EF909 /* CalendarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewUITests.swift; sourceTree = "<group>"; };
 		852015982124790D007EF909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852015A4212479C0007EF909 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				852015732124790C007EF909 /* AppDelegate.swift */,
 				852015752124790C007EF909 /* ViewController.swift */,
 				852015772124790C007EF909 /* Main.storyboard */,
+				852015A4212479C0007EF909 /* CalendarCell.swift */,
 				8520157D2124790D007EF909 /* Assets.xcassets */,
 				8520157F2124790D007EF909 /* LaunchScreen.storyboard */,
 				852015822124790D007EF909 /* Info.plist */,
@@ -262,6 +265,7 @@
 				8520157C2124790C007EF909 /* CalendarView.xcdatamodeld in Sources */,
 				852015762124790C007EF909 /* ViewController.swift in Sources */,
 				852015742124790C007EF909 /* AppDelegate.swift in Sources */,
+				852015A5212479C0007EF909 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
